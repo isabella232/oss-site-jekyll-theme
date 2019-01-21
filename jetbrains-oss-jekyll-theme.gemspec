@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.files        = Dir.glob("{_includes,_layouts,assets}/**/*") + %w(README.md)
 
-  spec.add_runtime_dependency "jekyll", "3.7.3"
+  spec.add_runtime_dependency "jekyll", ">= 3.7.4"
 
   spec.add_development_dependency "bundler", "1.16.1"
   spec.add_development_dependency "rake", "12.3.1"
